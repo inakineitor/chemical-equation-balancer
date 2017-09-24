@@ -1,0 +1,27 @@
+{
+  "name": "chemical-equation-balancer",
+  "version": "1.0.0",
+  "description": "A balancer for chemical equations that utilizes the algebraic method",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src -d lib && node lib/index.js",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Iñaki Arango",
+    "email": "arangoinaki@gmail.com",
+    "url": "https://github.com/inakineitor"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "algebra.js": "^0.2.6",
+    "colors": "^1.1.2",
+    "fraction.js": "^4.0.3",
+    "linear-solve": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.1.0"
+  }
+}
