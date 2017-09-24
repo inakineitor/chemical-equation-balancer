@@ -1,6 +1,6 @@
 {
   "name": "chemical-equation-balancer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A balancer for chemical equations that utilizes the algebraic method",
   "main": "lib/index.js",
   "scripts": {
